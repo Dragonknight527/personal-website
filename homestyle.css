@@ -1,0 +1,128 @@
+html{
+    background-image: url(https://www.teahub.io/photos/full/62-629776_the-universe-space-spaceship-wallpaper-space-ship-in.jpg);
+    background-attachment: fixed;
+}
+header {
+    font-family: fantasy;
+    color: white;
+    font-size: 40px;
+    background-color: black;
+}
+
+p{
+    color: white;
+    
+}
+h1 {
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-left: 20px;
+    font-style: italic;
+}
+    
+h2 {
+    font-family: sans-serif;
+    font-size: 15px;
+    margin: 5px;
+    font-style: italic;
+}
+
+h3 {
+    font-family: monospace;
+    font-size: 15px;
+    background-size: cover;
+    background-color: dodgerblue;
+    display: inline-block;
+    font-style: italic;
+    color: white;
+    margin-left: 50px;
+}
+
+img {
+        margin: 0;
+        padding: 0;
+        }
+.imgbox {
+        display: grid;
+        height: 100%;
+        }
+.center-fit {
+        max-width: 100%;
+        max-height: 100vh;
+        margin: auto;
+        width: 2160px;
+        height: 1060px;
+        }
+.center-fit-text {
+    margin: 10px;
+    max-width: 100%;
+    padding: 10px;
+    
+}
+label {
+    margin: 0px;
+}
+
+div {
+    margin: 50px;
+}
+
+footer {
+    font-size: 12px;
+}
+
+title {
+  display: none;
+}
+
+.li1 {
+    list-style: none;
+    display: inline;
+    padding-right: 20px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+nav ul {
+    width: 50em;
+    border: 2px solid;
+    background-color: black;
+}
+
+nav li {
+    margin: 5px;
+}
+
+nav a {
+    padding: 5px;
+    text-decoration: none;
+    font-weight: bolder;
+    border: thin solid darkblue; 
+    border-radius: 10px;
+    box-shadow: 0 5px 10px white inset;
+    color: white;
+    background-color: darkblue;
+    transition: all .25s ease-in;
+    display: inline-block;
+}
+
+nav a:focus,
+nav a:hover,
+nav li[aria-current] a:focus,
+nav li[aria-current] a:hover {
+    color: darkblue;
+    background-color: dodgerblue;
+}
+
+footer {
+    position: fixed;
+    bottom: 5px;
+}
+
+
+
+
+
+
+
+

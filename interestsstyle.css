@@ -1,0 +1,45 @@
+.li1 {
+    list-style: none;
+    display: inline;
+    padding-right: 20px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+nav ul {
+    width: 110em;
+    border: 2px solid;
+    border-color: black;
+    background-color: lightgrey;
+}
+
+nav li {
+    margin: 5px;
+}
+
+nav a {
+    padding: 5px;
+    text-decoration: none;
+    font-weight: bolder;
+    border: thin solid darkblue; 
+    border-radius: 10px;
+    box-shadow: 0 5px 10px white inset;
+    color: white;
+    background-color: darkblue;
+    transition: all .25s ease-in;
+    display: inline-block;
+}
+
+nav a:focus,
+nav a:hover,
+nav li[aria-current] a:focus,
+nav li[aria-current] a:hover {
+    color: darkblue;
+    background-color: mediumseagreen;
+}
+
+header {
+    font-size: 35px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
